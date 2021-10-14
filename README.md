@@ -51,7 +51,7 @@ _It's a good thing that it doesn't works, because it's not ready for production.
 
 * https://www.boost.org/ : everything
 * https://abseil.io : Abseil is an open source collection of C++ libraries drawn from the most fundamental pieces of Google’s internal codebase.
-* https://github.com/facebook/folly : Folly (acronymed loosely after Facebook Open Source Library)
+* https://github.com/facebook/folly : Folly contains a variety of core library components used extensively at Facebook.
 
 
 ### misc
