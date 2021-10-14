@@ -4,3 +4,4 @@
 /cmake-build-release-remote/
 /cmake-build-relwithdebinfo/
 .idea
+/cmake-build-emit-llvm/
