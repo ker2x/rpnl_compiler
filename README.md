@@ -69,8 +69,18 @@ _It's a good thing that it doesn't works, because it's not ready for production.
 
 * https://llvm.org/docs/tutorial/
 * https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+* https://www.youtube.com/watch?v=m8G_S5LwlTo : LLVM IR Tutorial
 
 ### References
 * https://en.wikipedia.org/wiki/RPL_(programming_language)
-* https://github.com/saturn597/RPN/blob/master/rpn.cpp
 * https://en.wikipedia.org/wiki/Cache-oblivious_algorithm
+* https://llvm.org/docs/CompilerWriterInfo.html
+* https://llvm.org/docs/Reference.html LLVM API reference
+* https://llvm.org/docs/LangRef.html : LLVM IR reference
+
+### LLVM based compilers
+* https://github.com/saturn597/RPN/blob/master/rpn.cpp
+* https://github.com/c3lang/c3c
+
+### tools
+* https://www.sonarsource.com/products/sonarlint/ : Sonar Linter
