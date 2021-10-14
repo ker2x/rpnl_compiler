@@ -6,8 +6,7 @@ _It's a good thing that it doesn't works, because it's not ready for production.
 ## Basic rules
 
 * It's all about speed, math & speed
-* When in doubt about a syntax or rule, look at RPL and Fortran, not Forth
-* https://en.wikipedia.org/wiki/RPL_(programming_language)
+* When in doubt about a syntax or rule, look at RPL first and then Fortran (not Forth)
 * 64 bits, possibly arbitrary precision in the future.
 * Everything is postfix, except when it's not
 * the "#" sign is reserved (include, pragma, who knows ?)
@@ -17,31 +16,61 @@ _It's a good thing that it doesn't works, because it's not ready for production.
 * a bool is a bool
 * An interactive shell is planned but it may be discontinued later.
 
+---
+
 ## Candidate for ext library
 
-* glog for log
-* google-benchmark
-* google-test for testing, and because google benchmark require it
-* ruy for matrix multiplication
-* need a library for parsing commandline argument
-* perhaps mathfu, for "fast math", not sure
-* I don't want to use boost but it would be nice to have boost. Argh.
-* gflags, for commandline parsing ?
-* Eigen is a C++ template library for linear algebra
-* FloatX, or Float eXtended, is a header-only library for low-precision, floating point type emulation.
-* sqlite
+### logging
+* glog for log : https://github.com/google/glog
 
-## random links and ressources and more libs
+### profiling & benchmarks
+* google-benchmark : https://github.com/google/benchmark
+
+### testing
+* google-test : https://github.com/google/googletest
+
+### maths
+* https://github.com/google/ruy : ruy for matrix multiplication (inactive?)
+* https://github.com/google/mathfu : for "fast math", not sure (developed primarily for games) (abandoned?)
+* https://gitlab.com/libeigen/eigen : Eigen is a C++ template library for linear algebra
+* https://github.com/limeoats/BigNumber BigNumber is a C++ class that allows for the creation and computation of arbitrary-length integers.
+* http://oprecomp.eu/ : arbitrary low precision thingy
+
+
+### database
+* support for sqlite probably make sense
+* i might as well support postgresql too
+* mysql can die in a fire
+
+### file format (data, image, ...)
+
+* image : png ? ppm ? jpg ? tga ? tiff ? ... ?
+* data : json ? yaml ? xml (eww) ?
+
+### large library
+
+* https://www.boost.org/ : everything
+* https://abseil.io : Abseil is an open source collection of C++ libraries drawn from the most fundamental pieces of Google’s internal codebase.
+* https://github.com/facebook/folly : Folly (acronymed loosely after Facebook Open Source Library)
+
+
+### misc
+* https://github.com/gflags/gflags : a library for parsing commandline argument (abandoned?)
+* https://github.com/fmtlib/fmt {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+* https://github.com/r35382/bnflite BNFLite is a C++ template library for lightweight flexible grammar parsers.
+
+---
+
+## random links and stuff
+
+
+
+### tutorials
 
 * https://llvm.org/docs/tutorial/
+* https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+
+### References
 * https://en.wikipedia.org/wiki/RPL_(programming_language)
 * https://github.com/saturn597/RPN/blob/master/rpn.cpp
 * https://en.wikipedia.org/wiki/Cache-oblivious_algorithm
-* https://cmake.org/cmake/help/latest/guide/tutorial/index.html
-* http://oprecomp.eu
-* https://abseil.io Abseil is an open source collection of C++ libraries drawn from the most fundamental pieces of Google’s internal codebase.
-* https://github.com/facebook/folly Folly (acronymed loosely after Facebook Open Source Library)
-* https://github.com/limeoats/BigNumber BigNumber is a C++ class that allows for the creation and computation of arbitrary-length integers.
-* https://github.com/fmtlib/fmt {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
-* https://github.com/r35382/bnflite BNFLite is a C++ template library for lightweight flexible grammar parsers.
-* 
